@@ -3,7 +3,7 @@ import SearchBox from "../SearchBox/SearchBox";
 import ContactForm from "../ContactForm/ContactForm";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchContacts } from "../../redux/contactsOperations";
+import { fetchContacts } from "../../redux/contactsOps";
 import Loader from "../Loader/Loader";
 import {
   selectContactCount,

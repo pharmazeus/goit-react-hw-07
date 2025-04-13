@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import styles from "./ContactForm.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { selectContacts } from "../../redux/contactsSlice";
-import { addContacts } from "../../redux/contactsOperations";
+import { addContacts } from "../../redux/contactsOps";
 
 const sighupSchema = Yup.object().shape({
   name: Yup.string()
